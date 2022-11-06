@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta class="my portfolio">
+    <title>My Portfolio @ Kingsley Nweri</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">K<span>INGSLEY</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Kingsley</span><br> from Nigeria.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/port 2.jpg" width="300" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Nweri Kingsley Nnamdi, I am a Nigerian based Programmer. I am a Full-stack Developer,
+                        currently running my Automations now. I'm aspiring to become a Professional Developer in the
+                        nearest Future. I have developed a lot of frontends and backends jobs that are very
+                        reliable and efficient.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding</span><br>Frontend (Client-Side) Development & Backend Development.</li>
+                            <li><span>Python</span><br>Web Scrapping & Automations.</li>
+                            <li><span>Gits/Github</span><br>Web Deployment & Hosting.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Present</span><br>Python Automations & Website Scrapping at Jetrey
+                                Institutes (Nig).</li>
+                            <li><span>Gits & Github</span><br>Website Deployment, Code Sharing & Hosting.</li>
+                            <li><span>Backend Development</span><br>Python (Django).</li>
+                            <li><span>Frontend Development</span><br>HTML, CSS, JavaScript & Boostraps.</li>
+
+                            <!-- <li><span>2021 - 2022</span><br>Website Development, Design & Editions at Jetrey Institutes.
+                            </li>
+                            <li><span>2020 - 2021</span><br>Web Development (Frontend & Backend) Jetrey Institutes.
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <!-- <li><span>2022</span><br>Python (Validation, Admin, Scrapping & Automations) at Jetrey Tech,
+                                (Nigeria).</li> -->
+                            <li><span>2022 - Present</span><br>Web Development from Jetrey Institutes Nig.</li>
+                            <li><span>2019 - 2021</span><br>MIS & EDI (Business Mgt.) Nig.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development.</h2>
+                    <p>Explore my structured learning path to build for the modern web.
+
+                        <!-- Also creating a stunning
+                        Portfolio websites and E-Commerce websites and other websites at an affordable rates. -->
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Automation</h2>
+                    <p>With Python Automation we convert your boring experiences into a lively one.
+
+                        <!-- And a friendly environment to interact with your codes. -->
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-github"></i>
+                    <h2>Github</h2>
+                    <p>This is a platform where developers shape the future of softtware.
+                        <!-- and also contribute to
+                        open source communities for other developers. -->
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/Capture.PNG" alt="">
+                    <div class="layer">
+                        <h3>Adventure Sites</h3>
+                        <p>Explore the beauty of the world today and beyond.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Capture eco.PNG" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce</h3>
+                        <p>Is a platform where buying and selling is made easy it also includes delivery services and
+                            more.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="img/Capture ip.PNG" alt="">
+                    <div class="layer">
+                        <h3>Mobile Phones Blog</h3>
+                        <p>Revealing the beautiful experiences to Apple and other IOS users.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope"></i> kingsleycode1013@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+234 903 0976 646</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+234 913 005 0561</p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-paper-plane"></i></a>
+                    </div>
+                    <a href="img/MY CV.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Kingsley <i class="fas fa-heart"></i> Portfolio &copy; 2022.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
